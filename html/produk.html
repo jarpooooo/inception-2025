@@ -7,7 +7,7 @@
 
     <link
       rel="stylesheet"
-      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,109 +24,74 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="/css/produk.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="../css/produk.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <section id="navbar">
-      <nav class="navbar navbar-expand-lg sticky-top">
-        <div
-          class="container-md container-sm rounded-pill border border-dark"
-          style="backdrop-filter: blur(2px)"
-        >
-          <a class="navbar-brand" href="index.html">
-            <div class="d-flex align-items-center">
-              <img
-                src="/asset/img/icon/capybara (1).png"
-                alt="Logo KECAPKECUP"
-                width="auto"
-                height="50"
-              />
-              <h3 class="fugaz-one-regular align-center">KECAPKECUP.</h3>
+<section id="navbar">
+    <nav class="navbar navbar-expand-lg  sticky-top">
+        <div class="container-md container-sm rounded-pill border border-dark" style="backdrop-filter: blur(2px);">
+            <a class="navbar-brand" href="index.html">
+                <div class="d-flex align-items-center">
+                    <img src="../asset/img/icon/capybara (1).png" alt="Logo KECAPKECUP" width="auto" height="50">
+                    <h3 class="fugaz-one-regular align-center">KECAPKECUP.</h3>
+                </div>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Beranda.</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <div class="nav-link d-flex">
+                            <a href="">Tentang Kami.</a>
+                            <div class="dropdown-toggle" role="button" data-bs-toggle="dropdown"></div>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Visi Perusahaan</a></li>
+                                <li><a class="dropdown-item" href="#">Misi Perusahaan</a></li>
+                                <li><a class="dropdown-item" href="#">CEO Perusahaan</a></li>
+                                <li><a class="dropdown-item" href="#">Sejarah Perusahaan</a></li>
+                                <li><a class="dropdown-item" href="#">Pencapaian Perusahaan</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <div class="nav-link d-flex">
+                            <a class="" href="produk.html">Produk.</a>
+                            <div class="dropdown-toggle" role="button" data-bs-toggle="dropdown"></div>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Pengertian</a></li>
+                                <li><a class="dropdown-item" href="#">Varian</a></li>
+                                <li><a class="dropdown-item" href="#">Size</a></li>
+                                <li><a class="dropdown-item" href="#">Rekomendasi Makanan</a></li>
+                                <li><a class="dropdown-item" href="#">Pembuatan</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimoni.html">Testimoni.</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ.</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontak.</a>
+                    </li>
+                </ul>
             </div>
-          </a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarContent"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Beranda.</a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <div class="nav-link d-flex">
-                  <a href="">Tentang Kami.</a>
-                  <div
-                    class="dropdown-toggle"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                  ></div>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Visi Perusahaan</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Misi Perusahaan</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">CEO Perusahaan</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Sejarah Perusahaan</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#"
-                        >Pencapaian Perusahaan</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="nav-item dropdown">
-                <div class="nav-link d-flex">
-                  <a class="" href="produk.html">Produk.</a>
-                  <div
-                    class="dropdown-toggle"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                  ></div>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Pengertian</a></li>
-                    <li><a class="dropdown-item" href="#">Varian</a></li>
-                    <li><a class="dropdown-item" href="#">Size</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Rekomendasi Makanan</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Pembuatan</a></li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="testimoni.html">Testimoni.</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ.</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Kontak.</a>
-              </li>
-            </ul>
-          </div>
         </div>
-      </nav>
-    </section>
+    </nav>
+</section>
 
     <section id="produk">
       <div id="produk-kecap-manis">
@@ -152,7 +117,7 @@
             <div class="col-4 d-flex align-items-center">
               <img
                 class="mx-auto img-fluid"
-                src="/asset/img/placeholder kecap.png"
+                src="../asset/img/placeholder kecap.png"
                 alt=""
               />
             </div>
@@ -183,7 +148,7 @@
             <div class="col-4 d-flex align-items-center">
               <img
                 class="mx-auto img-fluid"
-                src="/asset/img/placeholder kecap.png"
+                src="../asset/img/placeholder kecap.png"
                 alt=""
               />
             </div>
@@ -206,7 +171,7 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../script.js"></script>
   </body>
 </html>
