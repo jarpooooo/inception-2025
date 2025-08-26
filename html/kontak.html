@@ -21,7 +21,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="../css/produk.css" />
+    <link rel="stylesheet" href="../css/kontak.css" />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
@@ -112,7 +112,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="kontak.html">Kontak.</a>
+                <a class="nav-link active" href="kontak.html">Kontak.</a>
               </li>
             </ul>
           </div>
@@ -120,65 +120,37 @@
       </nav>
     </section>
 
-<section id="produk">
-  <div id="carousel-produk" class="carousel slide carousel-fade" data-bs-ride="true">
-    <div class="carousel-inner">
+    <section id="jumbotron">
+      <div class="row align-items-center">
+        <div class="col-md-6 kontak-jumbo-img">
+            <div class="d-flex align-items-center justify-content-center vh-100">
+                <div class="container">
+                    <h1 class="fugaz-one-regular text-white display-1 kontak-jumbo-img-text text-center">Gather Some <br> Information</h1>
+                    <p class=" my-3 mx-5 roboto-mono text-white" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis, turpis at ultricies eleifend, erat velit pulvinar arcu, eget consectetur enim eros nec libero. Integer.</p>
+                </div>
+            </div>
+        </div>
 
-      <!-- Slide 1 -->
-      <div class="carousel-item active" id="produk-kecap-manis">
-        <div class="container-fluid m-0 p-0">
-          <div class="row position-relative" style="height: 600px">
-            <div class="col-9 d-flex align-items-center" style="background-color: #ffa927">
-              <div class="mx-5">
-                <h1 class="fugaz-one-regular display-1 m-5 produk-jumbo-text fw-bold">KECAP MANIS</h1>
-                <h5 class="mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla est in exercitationem sit hic, deserunt ducimus inventore neque iure recusandae dolorum quam vero aliquam quidem labore, assumenda beatae, quaerat explicabo.</h5>
-                <button class="btn btn-primary mx-3">Buy Now</button>
-              </div>
+        <div class="col-md-6">
+            <div class="container">
+            <form action="" class="">
+            <div class="my-3">
+              <label class="form-label fugaz-one-regular h4" for="">Nama</label>
+              <input type="text" class="form-control form-control-lg" name="" id="" />
             </div>
-            <div class="col-3 d-flex align-items-center">
-              <img class="mx-auto img-fluid" src="../asset/img/placeholder kecap.png" alt="">
-              <div class="align-self-end d-flex flex-column">
-                <div class="mx-3 my-3 display-3">
-                  <i class="fa-solid fa-circle-arrow-up" type="button" data-bs-target="#carousel-produk" data-bs-slide="prev"></i>
-                </div>
-                <div class="mx-3 my-3 display-3">
-                  <i class="fa-solid fa-circle-arrow-down" type="button" data-bs-target="#carousel-produk" data-bs-slide="next"></i>
-                </div>
-              </div>
+            <div class="my-3">
+              <label class="form-label fugaz-one-regular h4" for="">Email</label>
+              <input type="text" class="form-control form-control-lg" name="" id="" />
             </div>
-          </div>
+            <div class="my-3">
+              <label class="form-label fugaz-one-regular h4" for="">Pesan</label>
+              <textarea name="" id="" class="form-control form-control-lg" rows="4"></textarea>
+            </div>
+          </form>
+            </div>
         </div>
       </div>
-
-      <!-- Slide 2 -->
-      <div class="carousel-item" id="produk-kecap-asin">
-        <div class="container-fluid m-0 p-0">
-          <div class="row position-relative" style="height: 600px">
-            <div class="col-9 d-flex align-items-center" style="background-color: #0097b2">
-              <div class="mx-5">
-                <h1 class="fugaz-one-regular display-1 m-5 produk-jumbo-text fw-bold">KECAP ASIN</h1>
-                <h5 class="mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ratione consequatur laborum magnam vero ex, dicta ab hic optio qui impedit culpa at! Sed cumque sunt exercitationem dolor ullam necessitatibus!</h5>
-                <button class="btn btn-primary mx-3">Buy Now</button>
-              </div>
-            </div>
-            <div class="col-3 d-flex align-items-center">
-              <img class="mx-auto img-fluid" src="../asset/img/placeholder kecap.png" alt="">
-              <div class="align-self-end d-flex flex-column">
-                <div class="mx-3 my-3 display-3">
-                  <i class="fa-solid fa-circle-arrow-up" type="button" data-bs-target="#carousel-produk" data-bs-slide="prev"></i>
-                </div>
-                <div class="mx-3 my-3 display-3">
-                  <i class="fa-solid fa-circle-arrow-down" type="button" data-bs-target="#carousel-produk" data-bs-slide="next"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div> <!-- carousel-inner -->
-  </div>
-</section>
+    </section>
 
     <script
       src="https://kit.fontawesome.com/f78376d581.js"

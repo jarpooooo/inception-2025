@@ -1,0 +1,9 @@
+.kontak-jumbo-img{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url("../asset/img/IMG_7587.JPG") center center / cover no-repeat;
+    height: 100vh;
+    background-color: black;
+}
+.kontak-jumbo-img-text{
+    font-size: clamp(3.5rem, 7vw, 7rem); /* min 32px, skala 8% layar, max 112px */
+  font-weight: 700;  /* tebal mirip display heading */
+}

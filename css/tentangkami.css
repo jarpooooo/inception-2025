@@ -1,17 +1,17 @@
 .tentangkami-jumbo-background{
   background: url("../asset/img/testimoni\ jumbotron\ background.png");
-  height: 700px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
 }
 .tentangkami-visi-background {
-  background: url("../asset/img/IMG_7580.JPG") center center / cover no-repeat;
-  min-height: 600px; /* biar full tinggi layar */
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../asset/img/IMG_7580.JPG") center center / cover no-repeat;
+  min-height: 600px; 
 }
 
 .tentangkami-misi-background {
-  background: url("../asset/img/IMG_7595.JPG") center center / cover no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../asset/img/IMG_7595.JPG") center center / cover no-repeat;
   min-height: 600px;
 }

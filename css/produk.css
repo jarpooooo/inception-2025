@@ -1,0 +1,5 @@
+.produk-jumbo-text{
+  font-size: clamp(5rem, 8vw, 8rem); /* min 32px, skala 8% layar, max 112px */
+  font-weight: 700;  /* tebal mirip display heading */
+  line-height: 0.8;
+}

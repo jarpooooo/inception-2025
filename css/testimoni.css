@@ -1,6 +1,6 @@
 .testimoni-jumbo-background{
   background: url("../asset/img/testimoni\ jumbotron\ background.png");
-  height: 700px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
